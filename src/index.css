@@ -27,9 +27,9 @@
   align-items: center;
   justify-content: center;
 }
-
-.red {
-  background-color: red;
+.red,
+.yellow,
+.green {
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -37,24 +37,16 @@
   margin: 10px;
   margin-top: 20px;
 }
+.red {
+  background-color: red;
+}
 
 .yellow {
-  margin-top: 20px;
   background-color: yellow;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  cursor: pointer;
 }
 
 .green {
-  margin-top: 20px;
   background-color: green;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  cursor: pointer;
-  margin-bottom: 10px;
 }
 
 .highlight {

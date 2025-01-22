@@ -14,18 +14,20 @@ const TrafficLight = () => {
       <div className="holder"></div>
       <div className="frame">
         <div
-          className={`red ${activeLight === "red" ? "red highlight" : "red"}`}
+          className={`red ${
+            activeLight === "red" ? "red highlight" : { activeLight }
+          }`}
           onClick={() => handleLightClick("red")}
         ></div>
         <div
           className={`yellow ${
-            activeLight === "yellow" ? "yellow highlight" : "yellow"
+            activeLight === "yellow" ? "yellow highlight" : { activeLight }
           }`}
           onClick={() => handleLightClick("yellow")}
         ></div>
         <div
           className={`green ${
-            activeLight === "green" ? "green highlight" : "green"
+            activeLight === "green" ? "green highlight" : { activeLight }
           }`}
           onClick={() => handleLightClick("green")}
         ></div>

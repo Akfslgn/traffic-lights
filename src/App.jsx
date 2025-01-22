@@ -1,9 +1,9 @@
-import Logo from './components/Logo';
+import TrafficLight from "./TrafficLight";
 
 function App() {
   return (
     <>
-      <Logo />
+      <TrafficLight />
     </>
   );
 }
